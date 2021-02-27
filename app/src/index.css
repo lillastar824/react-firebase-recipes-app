@@ -1,0 +1,48 @@
+@import "~antd/dist/antd.css";
+body {
+  background-color: #F1DAC4;
+  margin: 0;
+  font-size: 16pt;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.layout {
+  padding: 2rem 1rem;
+  min-height: 100vh;
+}
+
+.layout__container {
+  max-width: 66rem;
+  margin: 0 auto;
+}
+
+.layout__container .ant-page-header {
+  border-radius: .66rem .66rem 0 0;
+}
+
+.layout__main {
+  padding: 1rem 24px;
+  border-radius: 0 0 .66rem .66rem;
+  background-color: #fafafa;
+  min-height: 66rem;
+}
+
+.spinner {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-item-date {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #999;
+}

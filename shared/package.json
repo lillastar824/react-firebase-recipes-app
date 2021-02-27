@@ -1,0 +1,21 @@
+{
+  "name": "@jurijtokarski/reabase-recipes-shared",
+  "version": "0.0.2",
+  "scripts": {
+    "prepack": "tsc",
+    "update:functions": "cd ../functions && yarn add @jurijtokarski/reabase-recipes-shared",
+    "update:app": "cd ../app && yarn add @jurijtokarski/reabase-recipes-shared",
+    "update": "yarn update:functions && yarn update:app",
+    "postpublish": "yarn update"
+  },
+  "license": "UNLICENSED",
+  "main": "",
+  "author": "J.T. <inbox@jurijtokarski.com>",
+  "repository": "github:jurijtokarski/react-firebase-recipes-app",
+  "dependencies": {
+    "typescript": "^3.7.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

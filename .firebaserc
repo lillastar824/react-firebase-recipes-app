@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "reabase-recipes"
+  },
+  "targets": {
+    "reabase-recipes": {
+      "hosting": {
+        "app": [
+          "reabase-recipes"
+        ]
+      }
+    }
+  }
+}
